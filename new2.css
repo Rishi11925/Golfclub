@@ -1,0 +1,239 @@
+*{
+    margin :0;
+    padding :0;
+     box-sizing :border-box;
+     font-family: "Montserrat", system-ui;
+     color:white;
+}
+html, body{
+    height :100%;
+    width :100%;
+}
+#navi{
+    height : 100px;
+
+    width:100%;
+     background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding : 0 150px;
+    gap: 45px;
+    position: fixed ;
+    z-index: 99;
+}
+#navi img{
+    height: 70px;
+}
+#navi h4{
+    font-weight: 500;
+    
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+
+}
+#main{
+    position : relative ;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+#page1{
+    height:100vh;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page1 h1{
+    font-size: 140px;
+    font-weight: 600;
+    position: relative;
+    color: rgb(169, 232, 45);
+    margin-top: 50px;
+   
+}
+#page1 h1::before{
+    content:"EAT. DRINK. PLAY." ;
+    position:absolute;
+    color: white;
+    
+    left: -5px;
+
+}
+#page h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+
+}
+#para{
+    font-size: 17px;
+    font-weight:500 ;
+    width:40%;
+    
+}
+#page2{
+    height:100vh;
+    width:100%;
+    background: rgba(0, 0, 0, 0.731);
+}
+#page2 h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#aboutUs{
+    height:40vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    row-gap: 30px;
+   
+}
+#img1{
+    height:220px;
+    width:220 px;
+    border-radius: 50px;
+    object-fit: cover;
+   
+}
+#img2{
+    height:220px;
+    width:220 px;
+    border-radius: 50px;
+
+}
+#abt{
+    width:50%;
+    text-align: center;
+    
+}
+#abt h2{
+    margin-bottom: 30px;
+}
+#im1{
+    height:220px;
+    width:220 px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#im2{
+    height:220px;
+    width:220 px;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#im3{
+    height:220px;
+    width:220 px;
+    border-radius: 50px;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+#image{
+    gap: 100px;
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
+}
+#green{
+    margin-top: 100px;
+    height: 35vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(93, 239, 35);
+   font-size: 30px;
+   text-shadow: 0cqb;
+    
+    
+    
+}
+#green h3::before{
+    content:"SIGN UP FOR SIDECUP NEWS AND SPECIAL OFFERS STRAIGHT TO YOUR INBOX " ;
+    position:absolute;
+    color: black;
+    
+    left: 30px;
+
+}
+#par{
+    height:80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+#abc{
+    width:100%;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+#col1{
+    height: 50vh;
+    width: 100%;
+}
+#col1 img{
+    height: 100px;
+    width: 100px;
+   
+}
+#col2 img{
+    height: 100px;
+    width: 100px;
+}
+#col2{
+    height: 50vh;
+    width: 100%;
+}
+#bot{
+    height: 25vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+#div1{
+    height:100px;
+    width:300px;
+    border-radius: 25px;
+    background-color: rgb(93, 239, 35);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#div2{
+    height:100px;
+    width:300px;
+    border-radius: 25px;
+    background-color: rgb(93, 239, 35);
+}
+#div3{
+    height:100px;
+    width:300px;
+    border-radius: 25px;
+    background-color: rgb(93, 239, 35);
+}
